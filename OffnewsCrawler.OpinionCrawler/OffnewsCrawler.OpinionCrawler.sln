@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OffnewsCrawler.OpinionCrawler", "OffnewsCrawler.OpinionCrawler\OffnewsCrawler.OpinionCrawler.csproj", "{CDEC4339-B370-4806-A602-BD7F83EBACF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{571833FA-85B7-419A-A6E0-7C9561A9C633}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OffnewsCrawler.Data", "OffnewsCrawler.Data\OffnewsCrawler.Data.csproj", "{CA6D894A-F5A9-40FC-99F9-057658EC4E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDEC4339-B370-4806-A602-BD7F83EBACF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEC4339-B370-4806-A602-BD7F83EBACF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEC4339-B370-4806-A602-BD7F83EBACF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEC4339-B370-4806-A602-BD7F83EBACF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6D894A-F5A9-40FC-99F9-057658EC4E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6D894A-F5A9-40FC-99F9-057658EC4E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6D894A-F5A9-40FC-99F9-057658EC4E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6D894A-F5A9-40FC-99F9-057658EC4E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿This dir contains files with crawled opinions. The file name contains the starting Opinion Id .
